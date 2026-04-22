@@ -16,5 +16,3 @@ endpoints:
             deploymentName: "${AZURE_OPENAI_DEPLOYMENT_4_o}"
           gpt-5.4-mini:
             deploymentName: "${AZURE_OPENAI_DEPLOYMENT_5_4_MINI}"
-          gpt-image-2:
-            deploymentName: "${AZURE_OPENAI_DEPLOYMENT_IMAGE_2}"
