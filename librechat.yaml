@@ -2,8 +2,6 @@ version: 1.2.8
 
 cache: true
 
-fileStrategy: azure_blob
-
 endpoints:
   azureOpenAI:
     groups:
