@@ -11,4 +11,8 @@ endpoints:
         version: "${AZURE_OPENAI_API_VERSION}"
         models:
           gpt-4o:
-            deploymentName: "${AZURE_OPENAI_DEPLOYMENT}"
+            deploymentName: "${AZURE_OPENAI_DEPLOYMENT_4_o}"
+          gpt-5.4-mini:
+            deploymentName: "${AZURE_OPENAI_DEPLOYMENT_5_4_MINI}"
+          gpt-image-2:
+            deploymentName: "${AZURE_OPENAI_DEPLOYMENT_IMAGE_2}"
